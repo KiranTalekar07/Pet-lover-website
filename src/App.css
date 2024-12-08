@@ -1,0 +1,64 @@
+.navbar{
+  --bs-navbar-toggler-border-color:white !important;
+  --bs-navbar-toggler-icon-bg:url(./componenet/img/three.png )!important;
+}
+#navbarScrollingDropdown{
+  color: white;
+}
+.pet{
+  padding-right: 300px !important 
+}
+
+.navbar-toggler-icon{
+  background-image: var(--bs-navbar-toggler-icon-bg) !important;
+}
+.spa{
+  font-size: 55px;
+}
+.pet-desc{
+  font-weight: 400;
+}
+.carousel-indicators[data-bs-target]{
+  display: none !important;
+}
+.h1{
+  font-size: 42px !important;
+}
+.boarding{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
+}
+.About{
+  font-size: 45px !important;
+}
+
+.card{
+  width: 400px;
+  height: 400px;
+  padding: 5px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 2px 2px rgb(230, 222, 222);
+  text-align: center;
+  margin-top: 40px;
+}
+.Cardcomp{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 66px;
+}
+.care{
+  font-size: 70px !important;
+}
+.specialcarepets{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
+} 
+.pricingplan{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 66px;
+}
